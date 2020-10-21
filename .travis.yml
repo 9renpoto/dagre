@@ -1,6 +1,10 @@
 language: node_js
 node_js:
   - "lts/*"
+services:
+  - xvfb
+addons:
+  firefox: latest
 script: KARMA_OPTS="--browsers Firefox,PhantomJS" make -e test
 before_script:
   - export DISPLAY=:99.0
