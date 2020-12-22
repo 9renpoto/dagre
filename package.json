@@ -35,7 +35,7 @@
     "requirejs": "2.3.6",
     "semver": "7.3.2",
     "sprintf": "0.1.5",
-    "uglify-js": "3.10.0"
+    "uglify-js": "3.12.3"
   },
   "repository": {
     "type": "git",
